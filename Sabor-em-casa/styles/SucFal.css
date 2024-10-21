@@ -1,0 +1,53 @@
+body {
+    background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #f5f5dc;
+    color: #7d0102;
+    padding: 20px 0;
+}
+
+h1 {
+    margin-top: 20px;
+}
+
+.alert {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+/* Estilos personalizados para os links que se parecem com botões */
+.custom-btn {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #7d0102; /* Cor de fundo dos botões */
+    color: white; /* Cor do texto dos botões */
+    border: none;
+    cursor: pointer;
+    text-decoration: none; /* Remove underline */
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.custom-btn:hover {
+    background-color: #a10b0e; /* Efeito de hover nos botões */
+    opacity: 0.9; /* Leve opacidade ao passar o mouse */
+}
+
+.alert-success {
+    background-color: #d4edda;
+    color: #155724;
+}
+
+.alert-danger {
+    background-color: #f8d7da;
+    color: #721c24;
+}

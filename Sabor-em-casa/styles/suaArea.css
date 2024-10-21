@@ -1,0 +1,70 @@
+body {
+    background-color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+/* Estilos dos Cards */
+.custom-card {
+    border: none;
+    border-radius: 10px;
+    background-color: #fff5f5;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    height: 240px; /* Definindo uma altura fixa para todos os cards */
+    width: 450px;
+    transition: transform 0.2s;
+}
+
+.custom-card:hover {
+    transform: scale(1.05);
+}
+
+.card-title {
+    font-size: 1.5em;
+    color: #7d0102;
+}
+
+.card-text {
+    font-size: 1.1em;
+    color: #333;
+}
+
+.custom-btn {
+    background-color: #7d0102;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+.custom-btn:hover {
+    background-color: #a10b0e;
+    color: white;
+}
+
+/* Configurações de layout dos Cards */
+.container {
+    margin-top: 30px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.col-md-6 {
+    display: flex;
+    justify-content: center;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%; /* Garante que o conteúdo se ajuste ao tamanho do card */
+}
+
+.img-perfil {
+    border-radius: 50%; /* Torna a imagem redonda */
+}

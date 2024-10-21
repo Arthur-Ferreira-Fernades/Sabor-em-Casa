@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.conteudo {
+    width: 100%;
+    height: 100vh;
+    padding: 1.25rem;
+}
+
+.categorias {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container-com-borda {
+    border: 2px solid #7d0102; /* Borda envolvendo categorias e cards */
+    border-radius: 10px;
+    padding: 40px; /* Espaçamento interno */
+    margin: 20px; /* Margem externa */
+}
+.categoria-btn {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    background-color: #7d0102; /* Nova cor do botão */
+    color: white; /* Cor do texto do botão */
+}
+.categoria-btn:hover {
+    background-color: #a10b0e; /* Cor ao passar o mouse */
+    color: #f5f5dc;
+
+}
+.active-category {
+    background-color: #a10b0e; /* Cor ativa */
+    color: white;
+    border-radius: 5px;
+}
+.receitas {
+    margin-top: 20px;
+}
+
+.card {
+    margin:10px;
+    height: 90%; /* Faz os cards terem a mesma altura */
+    border: 1px solid #ddd; /* Borda para os cards */
+    border-radius: 5px; /* Bordas arredondadas */
+}
+
+.card-img-top {
+    height: 300px; /* Define a altura da imagem */
+    object-fit: cover; /* Ajusta a imagem para cobrir a área do card */
+}
+
+.verReceita {
+    background-color: #7d0102;
+    color: white;
+    width: 270px;
+}
+
+.verReceita:hover {
+    background-color: #a10b0e; /* Cor ao passar o mouse */
+    color: #f5f5dc;
+}
+
+.card-body {
+    text-align: left; /* Alinha o texto à esquerda */
+}
+
+.img-perfil {
+    border-radius: 50%; /* Torna a imagem redonda */
+}  
+
+.favoritar-container {
+    position: absolute;
+    top: 10px; /* Ajuste conforme necessário */
+    right: 10px; /* Ajuste conforme necessário */
+}
+
+.card {
+    position: relative; /* Necessário para posicionar o coração no card */
+}
+
+.heart-icon {
+    color: grey; /* Cor padrão do coração não favoritado */
+    font-size: 1.5rem; /* Tamanho do ícone */
+}
+
+.heart-icon.favoritado {
+    color: red; /* Cor do coração favoritado */
+}
+
+.botao {
+    width: 100px;
+}
+
+
+

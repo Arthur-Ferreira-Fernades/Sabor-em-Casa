@@ -1,0 +1,89 @@
+/* Reset básico */
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #f8f9fa;
+    padding: 15px;
+    border-bottom: 1px solid #dee2e6;
+}
+
+.cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cabecalho img {
+    margin-right: 15px;
+}
+
+.cabecalho a {
+    margin: 0 10px;
+}
+
+.main {
+    margin-top: 20px;
+}
+
+/* Estilização do formulário */
+h2 {
+    margin-bottom: 20px;
+}
+
+.form-label {
+    font-weight: bold;
+}
+
+.form-control {
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+    box-shadow: none;
+    transition: border-color 0.3s;
+}
+
+.form-control:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.25);
+}
+
+.btn-success {
+    background-color: #28a745;
+    border-color: #28a745;
+}
+
+.btn-success:hover {
+    background-color: #218838;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+
+.btn-danger:hover {
+    background-color: #c82333;
+}
+
+/* Estilização dos ingredientes */
+.input-group {
+    margin-bottom: 10px;
+}
+
+.input-group .form-control {
+    margin-right: 5px;
+}
+
+.img-thumbnail {
+    margin-top: 10px;
+}
+
+/* Estilo do botão Adicionar Ingrediente */
+.btn-primary {
+    margin-top: 10px;
+}
+
+.img-perfil {
+    border-radius: 50%; /* Torna a imagem redonda */
+}
